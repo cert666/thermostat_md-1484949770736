@@ -14,6 +14,9 @@
  * limitations under the License.
  **/
 
+process.env.NODE_RED_USERNAME = "admin";
+process.env.NODE_RED_PASSWORD = "admin";
+
 var path = require("path");
 var when = require("when");
 
